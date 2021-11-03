@@ -1,0 +1,26 @@
+AdminPage.box {
+ width: 300px;
+ padding: 40px;
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ background: rgb(235, 229, 229);
+ border-radius: 10px;;
+ border: 1px solid rgb(196, 10, 41);
+ opacity: 0.70;
+}
+box input[type="text"], input[type="password"]{
+ background: black;
+ display: block;
+ margin: 20px auto;
+ text-align: center;
+ border: 2px solid rgb(189, 7, 83);
+ padding: 14px 10px;
+ width: 200px;
+ outline: none;
+ color: white;
+ border-radius: 20px;
+ transition: 0.25s;
+}
